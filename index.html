@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Dashboard</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" type="text/css" media="screen" href="stylesheet.css" />
+</head>
+
+<body>
+  <main>
+    <div class="sidebar">
+      <div class="nav-side">
+        <div class="logo">
+          <a href="#"><img src="./image/logo.png" alt="logo-image" /></a>
+        </div>
+        <div class="navigation">
+          <a href="#" class="default"><span class="iconify" data-icon="ant-design:home-outlined"
+              data-inline="false"></span></a>
+          <a href="#"><span class="iconify" data-icon="tabler:devices" data-inline="false"></span></a>
+          <a href="#"><span class="iconify" data-icon="bx:bx-user" data-inline="false"></span></a>
+          <a href="#"><span class="iconify" data-icon="tabler:messages" data-inline="false"></span></a>
+          <a href="#"><span class="iconify" data-icon="eva:question-mark-circle-outline" data-inline="false"></span></a>
+        </div>
+        <div class="share-icon">
+          <a href="#"><span class="iconify" data-icon="octicon:sign-out-16" data-inline="false"></span></a>
+        </div>
+      </div>
+
+      <div class="dashboard-side">
+        <div id="main">
+          <div class="title-dashboard">
+            <div class="nav-responsive">
+              <div class="logo">
+                <a href="#"><img src="./image/logo.png" alt="logo-image" /></a>
+              </div>
+              <h1>Dashboard</h1>
+
+              <div id="mySidenav" class="sidenav">
+                <div id="navbar">
+                  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><span class="iconify"
+                      data-icon="zondicons:close-solid" data-inline="false"></span></a>
+                  <a href="#" class="default"><span class="iconify" data-icon="ant-design:home-outlined"
+                      data-inline="false"></span></a>
+                  <a href="#"><span class="iconify" data-icon="tabler:devices" data-inline="false"></span></a>
+                  <a href="#"><span class="iconify" data-icon="bx:bx-user" data-inline="false"></span></a>
+                  <a href="#"><span class="iconify" data-icon="tabler:messages" data-inline="false"></span></a>
+                  <a href="#"><span class="iconify" data-icon="eva:question-mark-circle-outline"
+                      data-inline="false"></span></a>
+                  <a href="#"><span class="iconify" data-icon="octicon:sign-out-16" data-inline="false"></span></a>
+                </div>
+              </div>
+
+              <img src="./image/menu.svg" alt="menu" class="menu-img" onclick="openNav()">
+            </div>
+            <h2>Dashboard</h2>
+          </div>
+          <div class="notification-board">
+            <a href="#" class="tasks-btn">Current Tasks</a>
+            <a href="#" class="show-link">Show all <span>143</span> </a>
+            <div class="note">
+              <a href="#"><span class="iconify" data-icon="bx:bx-caret-right-circle" data-inline="false"></span></a>
+
+              <h4><span class="iconify " data-icon="bi:circle-fill" data-inline="false">
+
+                </span>Make homepage</h4>
+              <p>Otundo CRM</p>
+            </div>
+            <div class="note">
+              <a href="#"><span class="iconify" data-icon="bx:bx-caret-right-circle" data-inline="false"></span></a>
+              <h4><span class="iconify " data-icon="bi:circle-fill" data-inline="false"></span>Problem with fixed header
+              </h4>
+              <p>Coca juice website</p>
+            </div>
+            <div class="note">
+              <a href="#"><span class="iconify" data-icon="bx:bx-caret-right-circle" data-inline="false"></span></a>
+              <h4>fix safari bug with catagories</h4>
+              <p>Coca juice website</p>
+            </div>
+            <div class="note">
+              <a href="#"><span class="iconify" data-icon="bx:bx-caret-right-circle" data-inline="false"></span></a>
+
+              <h4>Create UI Kit For layout</h4>
+
+              <p>Otundo CRM</p>
+            </div>
+            <div class="note">
+              <a href="#"><span class="iconify" data-icon="bx:bx-caret-right-circle" data-inline="false"></span></a>
+              <h4>Develop map for site</h4>
+              <p>Crypto Project</p>
+            </div>
+            <div class="create-project">
+              <span class="iconify" data-icon="bx:bx-plus" data-inline="false"></span>
+              <a href="#" class="create-btn"> Create New Project</a>
+              <span class="iconify" data-icon="tabler:devices" data-inline="false"></span>
+            </div>
+            <div class="chart-dashboard">
+              <h4>Advanced Tasks Statistics</h4>
+              <p class="paragraph">By project</p>
+              <div id="piechart" class="piechart" style="width: auto; height:auto;"></div>
+              <div class="nav-chart">
+                <ul>
+                  <li><a>GMB Vault</a></li>
+                  <li><a>Trading Company</a></li>
+                  <li><a>Other</a></li>
+                </ul>
+              </div>
+              <img src="image/img-dashboard.svg" class="pic" alt="">
+              <p> It will help us to aoid misspells and silly errors since code is run though</p>
+              <a href="#" class="help-link"><span class="iconify" data-icon="la:telegram"
+                  data-inline="false"></span>Helpdesk</a>
+                  <p>Designed on 8/10/2020 </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="content">
+      <header>
+        <div class="search">
+          <span class="iconify" data-icon="bytesize:search" data-inline="false"></span>
+          <input type="search" placeholder=" Search in CRN..." class="input-search" />
+        </div>
+        <div class="contact">
+          <div class="task">
+            <span class="iconify" data-icon="bx:bxs-caret-right-circle" data-inline="false"></span>
+            <div class="info">
+              <p>Otundo CRM</p>
+              <a href="#">Task:#78</a>
+              <a href="#"> <span class="iconify icon" data-icon="bx:bxs-chevron-down" data-inline="false"></span>
+              </a>
+            </div>
+
+          </div>
+          <span class="slash">|</span>
+          <div class="user">
+
+            <a href="#"><img src="./image/user-img.svg" alt="user-image"></a>
+
+            <div class="info">
+              <p>User</p>
+              <a href="#">Kolin F.</a>
+              <a href="#"> <span class="iconify icon" data-icon="bx:bxs-chevron-down" data-inline="false"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <section class="interface-section">
+        <h1>Welcome back , <a href="#">Kolin F.</a></h1>
+        <div class="interface-content">
+          <div class="metrics">
+            <div class="header-info">
+              <a href="#"><span class="iconify" data-icon="tabler:devices" data-inline="false"></span></a>
+              <div class="details">
+                <h2>Metrics</h2>
+                <p>About Projects</p>
+              </div>
+            </div>
+            <div class="content-a">
+              <h1>3 <span>30%</span></h1>
+
+              <p>In Progress</p>
+            </div>
+            <div class="content-a">
+              <h1>2<span>20%</span> </h1>
+              <p>Nearing Completion</p>
+            </div>
+          </div>
+          <div class="task-statistics">
+            <div class="header-info">
+              <a href="#">
+                <span class="iconify" data-icon="la:check-circle" data-inline="false"></span>
+              </a>
+              <div class="details">
+                <h2>Task-statistics</h2>
+                <p> By Days & status</p>
+              </div>
+            </div>
+            <div id="chart_div"></div>
+          </div>
+          <div class="invoices">
+            <div class="header-info">
+              <a href="#"><span class="iconify" data-icon="tabler:messages" data-inline="false"></span></a>
+              <div class="details">
+                <h2>Invoices</h2>
+                <p>About Finanes</p>
+              </div>
+            </div>
+            <div class="content-a">
+              <h1>4 <span>30%</span></h1>
+              <p>Outstanding</p>
+            </div>
+            <div class="content-a">
+              <h1>10</h1>
+              <p>Total Amount</p>
+            </div>
+          </div>
+          <div class="security">
+            <div class="header-info">
+              <h2>Security</h2>
+              <a href="#"><span class="iconify" data-icon="cil:shield-alt" data-inline="false"></span>
+              </a>
+            </div>
+            <div class="describe">
+              <p>Last login :<a>5 July 2020 </a> at 4:07 AM</p>
+              <p>IP: <a>202.19.20.173</a><span><img src="./image/un.svg" alt="un-state">UK</span></p>
+              <p>Mozilla/5.0 (Macintosh ; Intel Mac OS X)</p>
+              <br>
+              <a href="#" class="link">History of login </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="recently-update">
+        <h1><a href="#">
+            Recntly Update Clients</a>
+          <a href="#"><span class="iconify" data-icon="bx:bx-caret-right-circle" data-inline="false"></span></a>
+        </h1>
+
+        <div class="clients">
+          <div class="client">
+            <a href="#">Mathew Versteng</a>
+            <p>Hilead Fenix LL</p>
+            <p class="date"><span>5 July 2020</span> at 4:07 AM</p>
+          </div>
+          <div class="client">
+            <a href="#">Helken Gelekser</a>
+            <p>Hilead Fenix LL</p>
+            <p class="date"><span>10 June 2020</span> at 3:23 AM</p>
+          </div>
+          <div class="client">
+            <a href="#">Ibragim Pushkov</a>
+            <p>Fintech Company LLC</p>
+            <p class="date"><span>2 June 2020</span> at 7:12 AM</p>
+          </div>
+          <div class="client">
+            <a href="#">Nikola Telko</a>
+            <p>DollarFlight LLC</p>
+            <p class="date"><span>29 May 2020</span> at 8.51 PM</p>
+          </div>
+        </div>
+        <h1><a href="#"> Current Project</a>
+
+          <a href="#"><span class="iconify" data-icon="bx:bx-caret-right-circle" data-inline="false"></span></a>
+        </h1>
+
+        <div class="projects">
+          <div class="project">
+            <a href="#">GMB Vault</a>
+            <p>Website Development</p>
+            <div class="stages">
+              <p><span class="complete">5</span>Complete</p>
+              <p><span class="progress">3</span>In Progress</p>
+              <p><span class="to-do">2</span>To Do</p>
+            </div>
+            <div class="bar col1">
+              <span class="complete-bar"></span>
+              <span class="progress-bar"></span>
+              <span class="to-do-bar"></span>
+            </div>
+          </div>
+          <div class="project">
+            <a href="#">Otundo</a>
+            <p>CRM for project LL</p>
+            <div class="stages">
+              <p><span class="complete">10</span>Complete</p>
+              <p><span class="progress">5</span>In Progress</p>
+              <p><span class="to-do">0</span>To Do</p>
+            </div>
+            <div class="bar col2">
+              <span class="complete-bar"></span>
+              <span class="progress-bar"></span>
+
+            </div>
+          </div>
+          <div class="project">
+            <a href="#">Trading Company</a>
+            <p>Trading Area</p>
+            <div class="stages">
+              <p><span class="complete">0</span>Complete</p>
+              <p><span class="progress">10</span>In Progress</p>
+              <p><span class="to-do">10</span>To Do</p>
+            </div>
+            <div class="bar col3">
+              <span class="progress-bar"></span>
+              <span class="to-do-bar"></span>
+            </div>
+
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+  <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script> <!-- Icons -->
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script><!-- Charts-->
+  <script src="main.js"></script>
+</body>
+</html>
